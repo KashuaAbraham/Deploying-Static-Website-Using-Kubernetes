@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: static-website
-        image: my-static-website:1.0
+        image:my-nginx-image
         ports:
         - containerPort: 80
